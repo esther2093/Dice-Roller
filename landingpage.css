@@ -82,22 +82,13 @@ button:hover {
 }
 
 .dice-wrapper2 {
-    background: rgba(0, 0, 0, 0.224);
-    height: 100px;
-    width:100px;
-    text-align: center;
-    transform:rotate(45deg);
-    border-radius: 8px;
-    font-size: 50px
+    width: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.dicenumber {
-    color: #333;
-    display: table-cell;
-    height: 60px;
-    transform: rotate(-45deg);
-    vertical-align: middle;
-      width:60px;
+#dice2 {
+    width: 170px;
 }
 
 button2 {
