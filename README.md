@@ -1,1 +1,1 @@
-# Lab-Exercise-1---Dice
+# LabExercise1Dice
