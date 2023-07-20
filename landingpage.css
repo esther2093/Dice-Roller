@@ -25,7 +25,7 @@ h1 {
 }
 
 .dice-container {
-    width: 400px;
+    width: 350px;
     padding: 80px;
     position: absolute;
     top: 15%;
@@ -49,6 +49,9 @@ p {
     margin: 30px 0;
 }
 
+#dice6 {
+    width: 120px;
+}
 
 button {
     background-color: red;
@@ -68,7 +71,8 @@ button:hover {
 
 
 .dice-container2 {
-    width: 400px;
+    width: 410px;
+    height: 295px;
     padding: 50px;
     position: absolute;
     top: 15%;
