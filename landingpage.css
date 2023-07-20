@@ -1,0 +1,109 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.resize {
+    width: 70px;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    padding: 15px
+}
+
+.dice-container {
+    width: 400px;
+    padding: 80px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    background-color: white;
+    box-shadow: 0 15px 35px rgba(50, 50, 50, 0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dice-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+
+button {
+    background-color: red;
+    width: 200px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.dice-container2 {
+    width: 400px;
+    padding: 50px;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    background-color: white;
+    box-shadow: 0 15px 35px rgba(50, 50, 50, 0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dice-wrapper2 {
+    width: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#dice10 {
+    width: 170px;
+}
+
+button2 {
+    background-color: red;
+    width: 200px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+button2:hover {
+    background-color: white;
+    color: black;
+}
+
