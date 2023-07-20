@@ -1,27 +1,39 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
+    
 }
 
-.logo {
+body {
+    background-image: url("images/blackdice.jpeg");
+}
+
+#logo {
     position: relative;
 }
 
-.logo img {
+#logo img {
     position: absolute;
     top: 0px;
     right: 0px;
 }
 
-.resize {
+#resize {
     width: 70px;
     height: auto;
 }
 
-h1 {
-    color: white;
-    background-color: black;
-    padding: 15px
+header {
+    padding: 5px;
+    background-color: white;
+    width: 700px; 
+    position: absolute;
+    left: 25%;
+}
+
+#pagetitle {
+    color: black;
+    opacity: 1;
 }
 
 .dice-container {
@@ -31,7 +43,7 @@ h1 {
     top: 15%;
     left: 10%;
     background-color: white;
-    box-shadow: 0 15px 35px rgba(50, 50, 50, 0.2);
+    box-shadow: 0 15px 35px rgba(227, 34, 34, 0.951);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -78,7 +90,7 @@ button:hover {
     top: 15%;
     right: 10%;
     background-color: white;
-    box-shadow: 0 15px 35px rgba(50, 50, 50, 0.2);
+    box-shadow: 0 15px 35px rgba(227, 34, 34, 0.951);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
