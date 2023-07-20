@@ -1,3 +1,19 @@
 All the functions required for page 
 
 Math.floor()
+
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+} //including min and max 
+
+6sided dice - numbers
+function roll{
+    let random = Math.floor((Math.random() * 6) +1)
+console.log(random)
+}
+
+10sided dice - numbers
+function roll2 {
+    let random = Math.floor((Math.random() * 10) +1)
+    console.log(random)
+}
