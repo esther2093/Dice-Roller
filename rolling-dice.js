@@ -5,15 +5,40 @@ let images2 = ["images/10-1.jpg", "images/10-2.jpg", "images/10-3.jpg", "images/
 // let dice = document.querySelectorAll("img");
 
 function roll1() {
-    let randomimages = Math.floor(Math.random() * images1.length)
+    let randomimages = generatecode(images1.length)
     let randomimageurl = images1[randomimages]
     document.getElementById('dice6').src = randomimageurl
     console.log(randomimageurl)
 }
 
 function roll2() {
-    let randomimages = Math.floor(Math.random() * images2.length)
+    let randomimages = generatecode(images2.length)
     let randomimageurl = images2[randomimages]
     document.getElementById('dice10').src = randomimageurl
     console.log(randomimageurl)
+}
+
+function generatecode(maximum) {
+    let randomnumber = Math.floor(Math.random() * maximum)
+    return randomnumber
+}
+
+if (generatecode(2) >2) {
+    throw new Error ('result >2')
+}
+
+if (generatecode(10) >9) {
+    throw new Error ('result >10')
+}
+
+if (generatecode(6) >6) {
+    throw new Error ('result >6')
+}
+
+if (generatecode(6) <0) {
+    throw new Error ('result <1')
+}
+
+if (generatecode(10) <0) {
+    throw new Error ('result <1')
 }
